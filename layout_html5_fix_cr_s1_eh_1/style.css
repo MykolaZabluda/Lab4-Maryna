@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+}
+/* Begin of styles for the demo (you can remove them) */
+a.expand {
+	width: 90px;
+	display: block;
+	margin: 10px 0 0;
+}
+a.expand:hover {
+	height: 500px;
+}
+/* End of of styles for the demo */
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 200px;
+	background: rgb(20, 19, 14);
+}
+
+.logo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 44%;
+    color: white;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-right: 250px solid #FFACAA;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+.content {
+	padding: 0 20px;
+}
+
+.right-sidebar {
+	float: right;
+	margin-right: -250px;
+	width: 250px;
+	position: relative;
+	background: rgb(27, 25, 25);
+}
+
+.second{
+    color: white;
+    position: relative;
+    padding: 10px 33% 100px 33%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Margarine', cursive;
+    z-index: 17;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	background: #BFF08E;
+}

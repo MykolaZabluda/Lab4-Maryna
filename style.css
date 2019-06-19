@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #23232e;
+    position: relative;
+}
+
+.logo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 44%;
+    color: white;
+}
+
+.Love{
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 100px 30% 10px 30%;
+    font-size: 40px;
+    font-family: 'Margarine', cursive;
+    z-index: 16;
+}
+
+.second{
+    color: white;
+    position: relative;
+    padding: 10px 33% 100px 33%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Margarine', cursive;
+    z-index: 17;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 20px 49%;
+}
+
+.text{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    color: black;
+    padding: 3% 30%;
+    text-align: center;
+}
+
+.text1{
+    padding: 20px;
+}
+
